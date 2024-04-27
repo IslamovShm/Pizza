@@ -8,7 +8,7 @@ import styles from './App.module.css'
 const App = () => {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename='/Pizza'>
                 <div className={styles.wrapper}>
                     <Header />
                     

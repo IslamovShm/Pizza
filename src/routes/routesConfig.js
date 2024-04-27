@@ -3,7 +3,7 @@ import CartPage from "@containers/CartPage/CartPage";
 
 const routesConfig = [
     {
-        path: '/Pizza',
+        path: '/',
         exact: 'true',
         element: <MainPage />
     },
